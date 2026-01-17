@@ -94,7 +94,7 @@ h2 {
 .output {
   background-color: #f7f9fa;
   border: 3px solid #AA7BC3;
-  height: 320px;
+  height: auto;
   margin-bottom: 50px;
 }
 
@@ -111,17 +111,15 @@ h2 {
 }
 
 .output li {
-  background: white;
-  margin-bottom: 1.5rem;
+  color: #333;
+  background-color: lightgray;
   padding: 0.75rem;
-  border-radius: 3px;
-  border-left: 2px solid #42744e;
-  box-shadow: -1 1px 3px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
 }
 
 .output li:hover {
-  transform: translateX(4px);
+  transform: translateY(4px);
+  border: 2px solid #AA7BC3;
 }
 
 .output li:last-child {
